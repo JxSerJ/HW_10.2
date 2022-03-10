@@ -50,12 +50,11 @@ def page_skill():
 def page_skill_id(skill_id):
 
     string = f'''<H1>Список кандидатов с навыком "{skill_id.capitalize()}"</H1><br>
-<pre>
-{build_skill_id_page_data(candidate_list, skill_id)}
-<br><a href='../'>Перейти на главную</a>
-<br><a href='../skill/'>Перейти на страницу навыков</a>
-</pre>
-'''
+    <pre>{build_skill_id_page_data(candidate_list, skill_id)}
+    <br><a href='../'>Перейти на главную</a>
+    <br><a href='../skill/'>Перейти на страницу навыков</a>
+    </pre>
+    '''
     return string
 
 
