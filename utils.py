@@ -19,7 +19,7 @@ def build_candidate_instances(data: list) -> tuple[list, list]:
     Object instance initializer (class Candidate)
 
     :param data: list of dictionaries
-    :return: list of objects
+    :return: list of objects and list of skills
     """
     candidate_list = []
     skill_list = []
