@@ -58,4 +58,4 @@ def page_skill_id(skill_id):
     return string
 
 
-application.run()
+application.run(debug=True)
